@@ -1,20 +1,54 @@
-/* Caveat Brush
-Berkshire Swash
-Sansita
-Aclonica
-Norican
-Rancho
-Pattaya
-Oleo Script Swash Caps
-Lobster
-Pacifico
-Acme
-Lobster Two
-Sacramento */
-
 :root {
 	--input: 0;
 	--gridSize: 800px;
+}
+
+.font1 {
+    font-family: 'Caveat Brush', sans-serif;
+}
+
+.font2 {
+    font-family: 'Berkshire Swash', sans-serif;
+}
+
+.font3 {
+    font-family: 'Sansita', sans-serif;
+}
+
+.font4 {
+    font-family: 'Aclonica', sans-serif;
+}
+
+.font5 {
+    font-family: 'Norican', sans-serif;
+}
+
+.font6 {
+    font-family: 'Rancho', sans-serif;
+}
+
+.font7 {
+    font-family: 'Pattaya', sans-serif;
+}
+
+.font8 {
+    font-family: 'Oleo Script Swash Caps', sans-serif;
+}
+
+.font9 {
+    font-family: 'Lobster', sans-serif;
+}
+
+.font10 {
+    font-family: 'Pacifico', sans-serif;
+}
+
+.font11 {
+    font-family: 'Lobster Two', sans-serif;
+}
+
+.font12 {
+    font-family: 'Sacramento', sans-serif;
 }
 
 body {
