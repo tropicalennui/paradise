@@ -16,7 +16,7 @@ function createGrid(num1, num2) {
 
     let boxes = document.querySelectorAll('.cell')
     boxes.forEach(box => {
-        box.innerText = 'Paradise Woodwork';
+        box.innerText = 'Paradise Woodcraft';
         const fontName = document.createElement('div');
         fontName.classList.add('plain');
         fontName.innerText = fonts[count];
