@@ -1,5 +1,6 @@
 :root {
-	--input: 0;
+	--input-width: 0;
+    --input-height: 0;
 	--gridSize: 800px;
 }
 
