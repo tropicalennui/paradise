@@ -1,7 +1,8 @@
 :root {
-	--input-width: 0;
-    --input-height: 0;
-	--gridSize: 800px;
+	--input-width: 2;
+    --input-height: 6;
+	--gridHeight: 100vh;
+    --gridWidth: 100vw;
 }
 
 .font1 {
@@ -33,7 +34,7 @@
 }
 
 .font8 {
-    font-family: 'Oleo Script Swash Caps', sans-serif;
+    font-family: 'Oleo Script', sans-serif;
 }
 
 .font9 {
@@ -55,6 +56,7 @@
 body {
 	background-color: #212121;
 	margin: auto;
+    font-size: 2vw;
 }
 
 #page {
@@ -68,13 +70,22 @@ body {
 
 #container {
 	display: grid;
-	grid-template-columns: repeat(var(--input), 1fr);
-	grid-template-rows: repeat(var(--input), 1fr);
+	grid-template-columns: repeat(var(--input-width), 1fr);
+	grid-template-rows: repeat(var(--input-height), 1fr); 
 	justify-content: center;
-	height: var(--gridSize);
-	width: var(--gridSize);
+	height: var(--gridHeight);
+	width: var(--gridWidth);
 }
 
-.box {
-	border: 1px solid purple;
+.cell {
+	display: flex;
+    flex-direction: column;
+    border: 1px solid purple;
+    justify-content: center;
+    align-items: center;
+}
+
+.plain {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1vw;
 }
