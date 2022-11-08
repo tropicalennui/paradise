@@ -5,54 +5,6 @@
     --gridWidth: 100vw;
 }
 
-.font1 {
-    font-family: 'Berkshire Swash', sans-serif;
-}
-
-.font2 {
-    font-family: 'Sansita', sans-serif;
-}
-
-.font3 {
-    font-family: 'Aclonica', sans-serif;
-}
-
-.font4 {
-    font-family: 'Norican', sans-serif;
-}
-
-.font5 {
-    font-family: 'Rancho', sans-serif;
-}
-
-.font6 {
-    font-family: 'Satisfy', sans-serif;
-}
-
-.font7 {
-    font-family: 'Oleo Script', sans-serif;
-}
-
-.font8 {
-    font-family: 'Lobster', sans-serif;
-}
-
-.font9 {
-    font-family: 'Pacifico', sans-serif;
-}
-
-.font10 {
-    font-family: 'Acme', sans-serif;
-}
-
-.font11 {
-    font-family: 'Abril Fatface', sans-serif;
-}
-
-.font12 {
-    font-family: 'Sacramento', sans-serif;
-}
-
 body {
 	background-color: #212121;
     color: antiquewhite;

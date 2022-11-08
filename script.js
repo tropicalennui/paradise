@@ -1,5 +1,36 @@
-const fonts = ['Berkshire Swash', 'Sansita', 'Aclonica', 'Norican', 'Rancho', 'Satisfy', 'Oleo Script', 'Lobster', 'Pacifico', 'Acme', 'Abril Fatface', 'Sacramento'];
+const fonts = ['Berkshire Swash',
+'Sansita',
+'Aclonica',
+'Norican',
+'Rancho',
+'Satisfy',
+'Oleo Script',
+'Lobster',
+'Pacifico',
+'Acme',
+'Abril Fatface',
+'Sacramento'];
+
+fontLoader();
 createGrid(4, 3);
+
+function fontLoader() {
+    const href = 'https://fonts.googleapis.com/css?family=';
+    const style = document.createElement('style');
+    let styleBuilder = '';
+
+    for (x = 0; x < fonts.length; x++) {
+        const link = document.createElement('link');
+        link.type = 'text/css';
+        link.rel = 'stylesheet'
+        link.href = href+fonts[x];
+        document.head.appendChild(link);
+        styleBuilder += `
+        .font` + x + ` {font-family: '` + fonts[x] + `', sans-serif;}`;
+    }
+    style.innerHTML = styleBuilder;
+    document.head.appendChild(style);
+}
 
 function createGrid(num1, num2) {
 	const numDivs = num1 * num2;
@@ -7,7 +38,7 @@ function createGrid(num1, num2) {
     let count = 0;
 
 	for (x = 0; x < numDivs; x++) {
-        let fontClass = 'font' + (x+1);
+        let fontClass = 'font' + x;
         const grid = document.createElement('div');
         grid.classList.add('cell');
         grid.classList.add(fontClass);
@@ -17,10 +48,10 @@ function createGrid(num1, num2) {
     let boxes = document.querySelectorAll('.cell')
     boxes.forEach(box => {
         box.innerText = 'Paradise Woodcraft';
-        const fontName = document.createElement('div');
-        fontName.classList.add('plain');
-        fontName.innerText = fonts[count];
-        box.appendChild(fontName);
+        const fontNameDiv = document.createElement('div');
+        fontNameDiv.classList.add('plain');
+        fontNameDiv.innerText = fonts[count];
+        box.appendChild(fontNameDiv);
         count++;
     })
 
