@@ -1,11 +1,11 @@
 function createGrid(num1, num2) {
-	numDivs = num * num;
+	numDivs = num1 * num2;
 	const container = document.querySelector('#container');
 
 	for (x = 0; x < numDivs; x++) {
-		const box = document.createElement('div');
-		box.classList.add('box');
-		container.appendChild(box);
+		const grid = document.createElement('div');
+		grid.classList.add('box');
+		container.appendChild(grid);
 	}
 
     let boxes = document.querySelectorAll('.box')
