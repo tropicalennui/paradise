@@ -1,4 +1,4 @@
-const fonts = ['Caveat Brush', 'Berkshire Swash', 'Sansita', 'Aclonica', 'Norican', 'Rancho', 'Satisfy', 'Oleo Script', 'Lobster', 'Pacifico', 'Acme', 'Lobster Two', 'Sacramento'];
+const fonts = ['Caveat Brush', 'Berkshire Swash', 'Sansita', 'Aclonica', 'Norican', 'Rancho', 'Satisfy', 'Oleo Script', 'Lobster', 'Pacifico', 'Acme', 'Abril Fatface', 'Sacramento'];
 createGrid(4, 3);
 
 function createGrid(num1, num2) {
