@@ -1,0 +1,41 @@
+/* Caveat Brush
+Berkshire Swash
+Sansita
+Aclonica
+Norican
+Rancho
+Pattaya
+Oleo Script Swash Caps
+Lobster
+Pacifico
+Acme
+Lobster Two
+Sacramento */
+
+:root {
+	--input: 0;
+	--gridSize: 800px;
+}
+
+body {
+	background-color: #212121;
+	margin: auto;
+}
+
+#page {
+	display: flex;
+	flex-direction: column;
+	height: 97vh;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+
+#container {
+	display: grid;
+	grid-template-columns: repeat(var(--input), 1fr);
+	grid-template-rows: repeat(var(--input), 1fr);
+	justify-content: center;
+	height: var(--gridSize);
+	width: var(--gridSize);
+}
