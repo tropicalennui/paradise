@@ -39,3 +39,7 @@ body {
 	height: var(--gridSize);
 	width: var(--gridSize);
 }
+
+.box {
+	border: 1px solid purple;
+}
