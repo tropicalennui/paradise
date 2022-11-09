@@ -1,15 +1,15 @@
-const fonts = ['Berkshire Swash',
-'Sansita',
-'Aclonica',
-'Norican',
-'Rancho',
+const fonts = ['Sacramento',
+'Dancing Script',
 'Satisfy',
-'Oleo Script',
-'Lobster',
-'Pacifico',
-'Acme',
-'Abril Fatface',
-'Sacramento'];
+'Great Vibes',
+'Cookie',
+'Yellowtail',
+'Marck Script',
+'Mr Dafoe',
+'Allura',
+'Parisienne',
+'Playball',
+'Homemade Apple'];
 
 fontLoader();
 createGrid(4, 3);
