@@ -6,8 +6,8 @@
 }
 
 body {
-	background-color: #212121;
-    color: antiquewhite;
+	background-color: #FFFFFF;
+    color: #000000;
 	margin: auto;
     font-size: 3vw;
 }
@@ -32,7 +32,7 @@ body {
 .cell {
 	display: flex;
     flex-direction: column;
-    border: 1px solid purple;
+    border: 1px solid black;
     justify-content: center;
     align-items: center;
 }
